@@ -32,4 +32,27 @@ One of the most popular algorithm is Diffie Hellman Key Exchange
 - [Youtube - Key Exchange Problems - Computerphile](https://www.youtube.com/watch?v=vsXMMT2CqqE)
 - [Youtube - Elliptic Curves - Computerphile](https://www.youtube.com/watch?v=NF1pwjL9-DE)
 
+
+### 21. SSH Into A Server
+
+```sh
+# generate ssh key
+ssh-keygen -C "test@gmail.com"
+Enter file in which to save the key (/Users/noah/.ssh/id_rsa): /Users/noah/.ssh/id_rsa_digitalocean
+Enter passphrase (empty for no passphrase): [Enter for empty]
+
+# copy pubic key to clipboard
+pbcopy < ~/.ssh/id_rsa_digitalocean.pub
+
+# ssh to digital ocean and paste my public key in autorized_keys
+ssh {user}@{host}
+cd ~/.ssh
+nano authorized_keys
+
+# still permission denied when ssh connect
+# Add ssh
+ssh-add ~/.ssh/id_rsa_digitalocean
+
+```
+
 <details>
