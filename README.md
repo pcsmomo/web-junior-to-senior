@@ -113,4 +113,13 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 
 [CSS Media Queries Cheat Sheet](https://gist.github.com/bartholomej/8415655)
 
+## 43. Solution: #2 - Network Optimizations
+
+1. Minimize all text
+2. Minimize images
+3. Media Queries
+4. Minimize # of files
+5. Combine all JS files into one JS file - webpack
+6. Combine all CSS files into one CSS file - webpack
+
 <details>
