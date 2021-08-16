@@ -109,4 +109,8 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
   - [VIEW AND REMOVE EXIF](https://www.verexif.com/en/)
   - 140k -> 137k
 
+### 39. Exercise: #1 - Media Queries
+
+[CSS Media Queries Cheat Sheet](https://gist.github.com/bartholomej/8415655)
+
 <details>
