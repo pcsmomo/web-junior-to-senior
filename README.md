@@ -32,7 +32,6 @@ One of the most popular algorithm is Diffie Hellman Key Exchange
 - [Youtube - Key Exchange Problems - Computerphile](https://www.youtube.com/watch?v=vsXMMT2CqqE)
 - [Youtube - Elliptic Curves - Computerphile](https://www.youtube.com/watch?v=NF1pwjL9-DE)
 
-
 ### 21. SSH Into A Server
 
 ```sh
@@ -55,6 +54,7 @@ ssh-add ~/.ssh/id_rsa_digitalocean
 ```
 
 ### 26. Solution: Set Up SSH on Github
+
 ```sh
 # generate ssh key
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -79,15 +79,34 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
    - HTML, CSS, and JS
    - [Uglify JS - online](https://skalman.github.io/UglifyJS-online/)
 2. Minimize Images
-   - JPG : quality
-   - GIF : fewer colors
-   - PNG : opacity
-   - SVG : vector
+   - JPG : quality, colourful images
+   - GIF : fewer colors, animation
+   - PNG : transparency
+   - SVG : vector, simple icons, logos, and illustrations
 
 ### 36. Resources: Image File Formats
 
 - [Image File formats - 99 designs](https://99designs.com.au/blog/tips/image-file-types/)
 - [See How Images Affect Your Page Speed - imgix](https://pageweight.imgix.com/)
 - [GIF, PNG, JPG or SVG. Which One To Use? - sitepoint](https://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
+
+### 37. Image Optimizations
+
+- Reduce PNG with TinyPNG
+  - [TynyPNG](https://tinypng.com/)
+- Reduce JPG with JPEG-optimizer
+  - [JPEG-optimizer](http://jpeg-optimizer.com/)
+- Try to choose simple illustrations over highly detailed photographs
+- Always lower JPEG image quality (30-60%)
+  - When saved
+- Resize image based on size it will be displayed
+- display different sized images for different backgrounds.
+  - Like CSS Media query or HTML
+- Use CDN like imigx
+  - [imgIX](https://imgix.com/)
+  - It will give us optimized size of images
+- Remove image metadata
+  - [VIEW AND REMOVE EXIF](https://www.verexif.com/en/)
+  - 140k -> 137k
 
 <details>
