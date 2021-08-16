@@ -79,5 +79,9 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
    - HTML, CSS, and JS
    - [Uglify JS - online](https://skalman.github.io/UglifyJS-online/)
 2. Minimize Images
+   - JPG : quality
+   - GIF : fewer colors
+   - PNG : opacity
+   - SVG : vector
 
 <details>
