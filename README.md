@@ -84,4 +84,10 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
    - PNG : opacity
    - SVG : vector
 
+### 36. Resources: Image File Formats
+
+- [Image File formats - 99 designs](https://99designs.com.au/blog/tips/image-file-types/)
+- [See How Images Affect Your Page Speed - imgix](https://pageweight.imgix.com/)
+- [GIF, PNG, JPG or SVG. Which One To Use? - sitepoint](https://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
+
 <details>
