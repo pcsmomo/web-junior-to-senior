@@ -73,4 +73,11 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 
 ![3 Keys To Performance](resources/performance.jpg '3 Keys To Performance')
 
+### 34. Network Performance
+
+1. Minimize Text
+   - HTML, CSS, and JS
+   - [Uglify JS - online](https://skalman.github.io/UglifyJS-online/)
+2. Minimize Images
+
 <details>
