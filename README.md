@@ -69,4 +69,8 @@ ssh-add -D  # remove all
 ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 ```
 
+### 33. 3 Keys To Performance
+
+![3 Keys To Performance](resources/performance.jpg '3 Keys To Performance')
+
 <details>
