@@ -122,4 +122,12 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 5. Combine all JS files into one JS file - webpack
 6. Combine all CSS files into one CSS file - webpack
 
+### 44. Critical Render Path Introduction
+
+1. DOM : Document Object Model
+2. CSSOM : CSS Object Model
+3. (DOMContentLoaded) Render Tree
+4. Layout
+5. Paint (Load)
+
 <details>
