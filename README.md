@@ -52,7 +52,21 @@ nano authorized_keys
 # still permission denied when ssh connect
 # Add ssh
 ssh-add ~/.ssh/id_rsa_digitalocean
+```
 
+### 26. Solution: Set Up SSH on Github
+```sh
+# generate ssh key
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+pbcopy < ~/.ssh/id_rsa_digitalocean2.pub
+
+ssh-add -l  # list
+ssh-add -D  # remove all
+```
+
+```sh
+# connect to raspberry pie or something
+ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 ```
 
 <details>
