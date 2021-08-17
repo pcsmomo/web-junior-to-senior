@@ -130,6 +130,19 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 4. Layout
 5. Paint (Load)
 
+```js
+// 2nd
+document.addEventListener('DOMContentLoaded', function (event) {
+  console.log('DOM fully loaded and parsed');
+});
+// 3rd
+window.addEventListener('load', function (event) {
+  console.log('All resources finished loading!');
+});
+// 1st
+console.log('this is script 1');
+```
+
 ### 46. Critical Render Path 2
 
 ```
