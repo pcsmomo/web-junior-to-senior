@@ -161,4 +161,12 @@ JS
   #10 Avoid long running Javascript
 ```
 
+### 51. Exercise: #4 - Keiko Corp Website
+
+Page Test Online Tools
+
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
+- [WebPageTest](https://www.webpagetest.org/)
+- [Lighthouse - Chrome Extension](https://developers.google.com/web/tools/lighthouse)
+
 </details>
