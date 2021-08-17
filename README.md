@@ -130,4 +130,22 @@ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 4. Layout
 5. Paint (Load)
 
-<details>
+### 46. Critical Render Path 2
+
+```
+HTML
+  #1 Load <style> in <head>
+  #2 Load <script> right before /body
+CSS
+  #3 Load only what is needed
+  #4 Above the fold loading
+  #5 Media attributes
+  #6 Less specificity
+JS
+  #7 Load scripts asynchronously
+  #8 Defer loading of scripts
+  #9 Minimize DOM manipulation
+  #10 Avoid long running Javascript
+```
+
+</details>
