@@ -169,4 +169,15 @@ Page Test Online Tools
 - [WebPageTest](https://www.webpagetest.org/)
 - [Lighthouse - Chrome Extension](https://developers.google.com/web/tools/lighthouse)
 
+### 52. Resources: Keiko Corp Website
+
+- git@github.com:aneagoie/keiko-corp.git
+- https://aneagoie.github.io/keiko-corp/
+
+### 53. Solution: Keiko Corp Website
+
+jQuery -> Vanila Javascript
+
+[You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+
 </details>
