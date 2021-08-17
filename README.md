@@ -219,8 +219,17 @@ Here are some extra resources and guides if you want a little more practice:
 - [PicResize](https://picresize.com/): One of several good browser-based tools that gives you lots of options for cropping, rotating, resizing, adding effects to, and converting images.
 - [Gimp](https://www.gimp.org/): This ever-popular cross-platform tool just gets better with age. Powerful and flexible, Gimp lets you perform a wide variety of image manipulation tasks including, of course, resizing.
 
+### 56. HTTP/2
+
+[Introduction to HTTP/2](https://developers.google.com/web/fundamentals/performance/http2/)
+
+### 58. HTTP/3
+
+[HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)
+
 </details>
 
 ## Next Step
 
+- [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
 - Review Performance and digest them again
