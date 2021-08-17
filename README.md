@@ -2,10 +2,12 @@
 
 The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
 
-## Details
+# Details
 
 <details open>
   <summary>Click to Contract/Expend</summary>
+
+## Section 2: SSH
 
 ### 9. SSH Command
 
@@ -68,6 +70,8 @@ ssh-add -D  # remove all
 # connect to raspberry pie or something
 ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 ```
+
+## Section 3: Performance Part 1
 
 ### 33. 3 Keys To Performance
 
@@ -227,9 +231,22 @@ Here are some extra resources and guides if you want a little more practice:
 
 [HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)
 
+## Section 4: React + Redux + Module Bundling
+
+### 62. Updated Code For This Section
+
+https://github.com/aneagoie/robofriends
+
+https://github.com/aneagoie/robofriends-redux
+
+### 69. CWD: create-react-app 2
+
+[Create React App](https://create-react-app.dev/docs/getting-started)
+[React Documents](https://reactjs.org/docs/getting-started.html)
+
 </details>
 
-## Next Step
+# Next Step
 
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
 - Review Performance and digest them again
