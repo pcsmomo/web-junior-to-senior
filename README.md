@@ -241,8 +241,14 @@ https://github.com/aneagoie/robofriends-redux
 
 ### 69. CWD: create-react-app 2
 
-[Create React App](https://create-react-app.dev/docs/getting-started)
+[Create React App](https://create-react-app.dev/docs/getting-started)\
 [React Documents](https://reactjs.org/docs/getting-started.html)
+
+### 75. CWD: Your First React Component
+
+[Tachyons : Light CSS Library](https://tachyons.io/)
+
+`npm install tachyons`
 
 </details>
 
