@@ -250,6 +250,19 @@ https://github.com/aneagoie/robofriends-redux
 
 `npm install tachyons`
 
+### 82. CWD: Building A React App 4
+
+- Smart Component (with state)
+- Pure Component
+
+### 83. CWD: Building A React App 5
+
+```css
+div {
+  overflow: scroll;
+}
+```
+
 </details>
 
 # Next Step
