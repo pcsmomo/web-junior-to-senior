@@ -263,6 +263,15 @@ div {
 }
 ```
 
+### 84. CWD: Building A React App 6
+
+- Containers : Smart components (it can be pages?)
+- Components : Pure components
+
+### 86. CWD: Keeping Your Projects Up To Date
+
+[npm update (^ Caret and ~ Tilde)](https://docs.npmjs.com/cli/v7/commands/npm-update)
+
 </details>
 
 # Next Step
