@@ -272,6 +272,13 @@ div {
 
 [npm update (^ Caret and ~ Tilde)](https://docs.npmjs.com/cli/v7/commands/npm-update)
 
+### 91. CWD: Deploying Our React App
+
+[Create React App - Deployment Github Pages](https://create-react-app.dev/docs/deployment/#github-pages)
+
+- On Page, I can change which branch I would like to deploy
+- On Repository Settings, I can set up website url
+
 </details>
 
 # Next Step
