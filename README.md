@@ -279,6 +279,13 @@ div {
 - On Page, I can change which branch I would like to deploy
 - On Repository Settings, I can set up website url
 
+### 98. CWD: React Hooks 7
+
+```html
+<!-- type search, "ESC" key can remove the input text -->
+<input type="search" />
+```
+
 </details>
 
 # Next Step
