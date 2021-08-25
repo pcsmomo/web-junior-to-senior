@@ -286,6 +286,12 @@ div {
 <input type="search" />
 ```
 
+### 105. Installing Redux
+
+```sh
+npm install redux react-redux --save
+```
+
 </details>
 
 # Next Step
