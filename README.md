@@ -292,6 +292,10 @@ div {
 npm install redux react-redux --save
 ```
 
+### 106. Redux Toolkit
+
+[Redux Toolkit](https://redux-toolkit.js.org/) helps reducing time with boilerplate
+
 </details>
 
 # Next Step
