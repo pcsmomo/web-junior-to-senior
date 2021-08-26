@@ -1,13 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import { connect } from 'react-redux';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
+import { setSearchField } from '../actions';
+
+const mapStateToProps = (state) => {
+  return {
+    searchField: state.searchField
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onSearchChange: (event) => dispatch(setSearchField(event.target.value))
+  };
+};
+
 function App(props) {
   const [robots, setRobots] = useState([]);
-  const [searchfield, setSearchfield] = useState('');
+  const { searchField, onSearchChange } = props;
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -21,12 +36,8 @@ function App(props) {
 
   useEffect(() => console.log(count), [count]);
 
-  const onSearchChange = (event) => {
-    setSearchfield(event.target.value);
-  };
-
   const filteredRobots = robots.filter((robot) => {
-    return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+    return robot.name.toLowerCase().includes(searchField.toLowerCase());
   });
   return !robots.length ? (
     <h1>Loading</h1>
@@ -44,4 +55,4 @@ function App(props) {
   );
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
