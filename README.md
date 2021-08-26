@@ -296,6 +296,17 @@ npm install redux react-redux --save
 
 [Redux Toolkit](https://redux-toolkit.js.org/) helps reducing time with boilerplate
 
+### 110. Redux Middleware
+
+```sh
+npm install redux-logger --save-dev
+```
+
+- [redux-logger options](https://github.com/LogRocket/redux-logger#log-everything-except-actions-with-certain-type)
+- [redux-logger exclude action.type](https://stackoverflow.com/questions/44572341/filtering-redux-form-actions-in-redux-logger-with-predicate-option)
+
+[Redux DevTools chrome extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+
 </details>
 
 # Next Step
