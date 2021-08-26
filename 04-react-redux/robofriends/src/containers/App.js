@@ -5,20 +5,13 @@ import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
-function App() {
-  // componentDidMount() {
-  //   fetch('https://jsonplaceholder.typicode.com/users')
-  //     .then((response) => response.json())
-  //     .then((users) => {
-  //       this.setState({ robots: users });
-  //     });
-  // }
-
+function App(props) {
   const [robots, setRobots] = useState([]);
   const [searchfield, setSearchfield] = useState('');
   const [count, setCount] = useState(0);
 
   useEffect(() => {
+    // console.log(props.store.getState());
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((users) => {
