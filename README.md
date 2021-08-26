@@ -307,6 +307,12 @@ npm install redux-logger --save-dev
 
 [Redux DevTools chrome extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 
+### 110. Redux Middleware
+
+```sh
+npm install redux-thunk --save
+```
+
 </details>
 
 # Next Step
