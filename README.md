@@ -340,6 +340,12 @@ Others
 - [Redix-Saga](https://redux-saga.js.org/)
 - [Immutable](https://immutable-js.com/)
 
+### 115. Module Bundlers
+
+- [Parcel](https://parceljs.org/) - Simple; Less configuration
+- [Webpack](https://webpack.js.org/)
+- [Rollup.js](https://rollupjs.org/guide/en/) - Remove unnecessary part
+
 </details>
 
 # Next Step
