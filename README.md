@@ -313,6 +313,33 @@ npm install redux-logger --save-dev
 npm install redux-thunk --save
 ```
 
+### 114. Popular Tools For React + Redux
+
+Functional
+
+- [Ramda](https://ramdajs.com/)
+- [Lodash\_](https://lodash.com/)
+
+CSS
+
+- [glamorous](https://glamorous.rocks/)
+- [styled component](https://www.styled-components.com/)
+- [css-modules](https://github.com/css-modules/css-modules)
+
+- [Gatsby](https://www.gatsbyjs.com/)
+- [NextJs](https://nextjs.org/)
+
+CSS component
+
+- [material-ui](https://material-ui.com/)
+- [Semantic UI](https://react.semantic-ui.com/)
+
+Others
+
+- \*\*\*\*[reselect](https://github.com/reduxjs/reselect)
+- [Redix-Saga](https://redux-saga.js.org/)
+- [Immutable](https://immutable-js.com/)
+
 </details>
 
 # Next Step
