@@ -404,6 +404,10 @@ It is great bundler when you create a simple project or configuration time is wa
 
 Image loading, Javascript, Etc.
 
+### 130. Code Splitting Part 1
+
+the bundle.js is currently 81k
+
 </details>
 
 # Next Step
