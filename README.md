@@ -348,12 +348,28 @@ Others
 
 ### 118. Webpack
 
+[Babel](https://babeljs.io/)
+
 ```sh
 npm install --save-dev webpack webpack-cli webpack-dev-server
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 npm install --save react react-dom
+```
+
+[ESLint](https://eslint.org/)
+
+```sh
 npm install --save-dev eslint eslint-loader
+```
+
+[@babel/eslint-parser](https://github.com/babel/babel/tree/main/eslint/babel-eslint-parser)
+
+```sh
 npm install --save-dev @babel/eslint-parser
+```
+
+```sh
+npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 ```
 
 </details>
