@@ -370,7 +370,30 @@ npm install --save-dev @babel/eslint-parser
 
 ```sh
 npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
+
 ```
+
+### 121. Resources: Webpack Configurator
+
+[Webpack Configurator](https://createapp.dev/webpack)
+
+### 122. Parcel
+
+```sh
+mkdir parcel-project
+cd parcel-project
+npm install --save react react-dom
+npm init -y
+
+npm install --save-dev parcel-bundler
+npm install --save-dev @babel/preset-env @babel/preset-react
+
+# "start" : "parcel index.html"
+npm start
+```
+
+no configuration and easy to use.\
+It is great bundler when you create a simple project or configuration time is wasting for a project
 
 </details>
 
