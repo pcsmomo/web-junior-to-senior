@@ -408,6 +408,50 @@ Image loading, Javascript, Etc.
 
 the bundle.js is currently 81k
 
+### 131. ES2020: Dynamic import()
+
+[Exploring ES2020 features - Dynamic Import](https://www.ksharifbd.com/blog/exploring-ES2020-dynamic-import/#Import)
+
+```js
+// https://www.ksharifbd.com/blog/exploring-ES2020-dynamic-import/#Import
+// by Md. Kamal Sharif
+<body>
+  <form>
+    <div>
+      <input type="radio" id="add" value="add" name="operation">Add </input>
+    </div>
+
+    <div>
+      <input type="radio" id="subtract" value="subtract" name="operation">Subtract</input>
+    </div>
+
+    <p>The operation is <span id="selectedOperation"></span> and the result is: <span id="result"></span></p>
+  </form>
+
+  <script>
+    const addInput = document.getElementById('add');
+    const subtractInput = document.getElementById('subtract');
+    const selectedOperationEl = document.getElementById('selectedOperation');
+    const resultEl = document.getElementById('result');
+
+    const handleChange = event => {
+      const { value } = event.target;
+
+      selectedOperationEl.innerText = value.toUpperCase();
+
+      import(`./${value}.js`) // using template literal
+        .then(module => {
+          resultEl.innerText = module.default(7, 4);
+        })
+        .catch(error => console.error(error));
+    };
+
+    addInput.addEventListener('click', handleChange);
+    subtractInput.addEventListener('click', handleChange);
+  </script>
+</body>
+```
+
 </details>
 
 # Next Step
