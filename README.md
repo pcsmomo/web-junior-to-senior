@@ -395,6 +395,15 @@ npm start
 no configuration and easy to use.\
 It is great bundler when you create a simple project or configuration time is wasting for a project
 
+## Section 5: Performance Part 2
+
+### 127. Optimizing Code
+
+1. Chrome DevTool - Performance Tab
+2. [Webpage Test](https://www.webpagetest.org/)
+
+Image loading, Javascript, Etc.
+
 </details>
 
 # Next Step
