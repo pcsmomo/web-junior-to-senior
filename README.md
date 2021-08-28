@@ -2,12 +2,23 @@
 
 The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
 
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#section-2-ssh">Section 2: SSH</a></li>
+    <li><a href="#section-3-performance-part-1">Section 3: Performance Part 1</a></li>
+    <li><a href="#section-4-react-redux-module-bundling">Section 4: React + Redux + Module Bundling</a></li>
+    <li><a href="#section-5-performance-part-2">Section 5: Performance Part 2</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
 # Details
+
+## Section 2: SSH
 
 <details open>
   <summary>Click to Contract/Expend</summary>
-
-## Section 2: SSH
 
 ### 9. SSH Command
 
@@ -71,7 +82,12 @@ ssh-add -D  # remove all
 ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.3. .....
 ```
 
+</details>
+
 ## Section 3: Performance Part 1
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
 
 ### 33. 3 Keys To Performance
 
@@ -231,7 +247,12 @@ Here are some extra resources and guides if you want a little more practice:
 
 [HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)
 
-## Section 4: React + Redux + Module Bundling
+</details>
+
+## Section 4: React Redux Module Bundling
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
 
 ### 62. Updated Code For This Section
 
@@ -395,7 +416,12 @@ npm start
 no configuration and easy to use.\
 It is great bundler when you create a simple project or configuration time is wasting for a project
 
+</details>
+
 ## Section 5: Performance Part 2
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
 
 ### 127. Optimizing Code
 
