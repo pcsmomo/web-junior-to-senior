@@ -478,6 +478,16 @@ the bundle.js is currently 81k
 </body>
 ```
 
+### 137. React Performance Optimizations
+
+The lecture shows http://localhost:3000/?react_perf and user timing on performance tab on chrom dev tool but it is a bit old.
+
+React DevTool -> Components -> Settings -> General -> Highlight updates when components render
+
+[React Optimizing Performance](https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-chrome-performance-tab)
+
+[React DevTool - React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
+
 </details>
 
 # Next Step
