@@ -488,6 +488,11 @@ React DevTool -> Components -> Settings -> General -> Highlight updates when com
 
 [React DevTool - React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
 
+### 139. React Performance Optimizations 2
+
+[React.memo() vs. useMemo(): Major differences and use cases
+](https://blog.logrocket.com/react-memo-vs-usememo/)
+
 </details>
 
 # Next Step
