@@ -30,6 +30,7 @@
     ]
   },
   "devDependencies": {
+    "@welldone-software/why-did-you-render": "^6.2.1",
     "redux-logger": "^3.0.6"
   }
 }

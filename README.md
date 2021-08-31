@@ -493,6 +493,15 @@ React DevTool -> Components -> Settings -> General -> Highlight updates when com
 [React.memo() vs. useMemo(): Major differences and use cases
 ](https://blog.logrocket.com/react-memo-vs-usememo/)
 
+[why-did-you-render - Analysing tool for rendering](https://github.com/welldone-software/why-did-you-render)
+[npm why-did-you-render - Analysing tool for rendering](https://www.npmjs.com/package/@welldone-software/why-did-you-render)
+
+```sh
+npm install @welldone-software/why-did-you-render --save-dev
+```
+
+> It needs to change babel option a little bit, so I didn't go further here.
+
 </details>
 
 # Next Step
