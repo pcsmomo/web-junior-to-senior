@@ -502,6 +502,10 @@ npm install @welldone-software/why-did-you-render --save-dev
 
 > It needs to change babel option a little bit, so I didn't go further here.
 
+### 142. Resources: Tree Shaking 101
+
+[Reduce JavaScript Payloads with Tree Shaking](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/)
+
 </details>
 
 # Next Step
