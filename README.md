@@ -506,6 +506,16 @@ npm install @welldone-software/why-did-you-render --save-dev
 
 [Reduce JavaScript Payloads with Tree Shaking](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/)
 
+### 144. Resources: Progressive Web Apps
+
+[Submitting PWA to 3 app stores](http://debuggerdotbreak.judahgabriel.com/2018/04/13/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned/)
+
+[Progressive Web Apps on iOS](https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7)
+
+### 145. Progressive Web Apps Examples
+
+[Pokedex.org](https://pokedex.org/)
+
 </details>
 
 # Next Step
