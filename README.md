@@ -516,6 +516,16 @@ npm install @welldone-software/why-did-you-render --save-dev
 
 [Pokedex.org](https://pokedex.org/)
 
+### 146. PWA - HTTPS
+
+[PWA Checklist for Google store](https://sami-chkhachkhi.medium.com/pwa-checklist-for-the-googl-341cb0426e)
+
+[PWA Checklist & Best Practices](https://asperbrothers.com/blog/pwa-2019-best-practices-checklist/)
+
+[Let's Encrypt](https://letsencrypt.org/)
+
+[Cloudflare](https://www.cloudflare.com/)
+
 </details>
 
 # Next Step
