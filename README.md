@@ -506,6 +506,12 @@ npm install @welldone-software/why-did-you-render --save-dev
 
 [Reduce JavaScript Payloads with Tree Shaking](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/)
 
+### 143. Progressive Web Apps
+
+1. HTTPS
+2. Manifest
+3. Service Worker - works like proxy; Web API: Cache API
+
 ### 144. Resources: Progressive Web Apps
 
 [Submitting PWA to 3 app stores](http://debuggerdotbreak.judahgabriel.com/2018/04/13/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned/)
@@ -533,6 +539,12 @@ npm install @welldone-software/why-did-you-render --save-dev
 [Viewport Meta Tag](https://web.dev/viewport/)
 
 [Favicon Generator](https://realfavicongenerator.net/)
+
+### 151. Resources: PWA - Service Workers
+
+[isServiceWorkerReady?](https://jakearchibald.github.io/isserviceworkerready/)
+
+[push notifications implementation](https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/)
 
 </details>
 
