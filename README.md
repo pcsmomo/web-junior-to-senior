@@ -518,6 +518,8 @@ npm install @welldone-software/why-did-you-render --save-dev
 
 ### 146. PWA - HTTPS
 
+[PWA Checklist](https://web.dev/pwa-checklist/)
+
 [PWA Checklist for Google store](https://sami-chkhachkhi.medium.com/pwa-checklist-for-the-googl-341cb0426e)
 
 [PWA Checklist & Best Practices](https://asperbrothers.com/blog/pwa-2019-best-practices-checklist/)
@@ -525,6 +527,12 @@ npm install @welldone-software/why-did-you-render --save-dev
 [Let's Encrypt](https://letsencrypt.org/)
 
 [Cloudflare](https://www.cloudflare.com/)
+
+### 148. PWA - App Manifest
+
+[Viewport Meta Tag](https://web.dev/viewport/)
+
+[Favicon Generator](https://realfavicongenerator.net/)
 
 </details>
 
