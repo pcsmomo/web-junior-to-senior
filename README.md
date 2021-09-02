@@ -546,6 +546,16 @@ npm install @welldone-software/why-did-you-render --save-dev
 
 [push notifications implementation](https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/)
 
+### 155. Deploying Our React App
+
+I have used the other deployed project, for PWA\
+
+https://pcsmomo.github.io/monsters-rolodex
+
+### 159. Solution Files - PWA
+
+[Progressive Tooling](https://progressivetooling.com/)
+
 </details>
 
 # Next Step
