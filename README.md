@@ -563,6 +563,15 @@ https://pcsmomo.github.io/monsters-rolodex
 <details open>
   <summary>Click to Contract/Expend</summary>
 
+### 175. Asynchronous Tests
+
+fetch() works on browser as it is under window object\
+but in node, we need install a similar library
+
+```
+npm install --save-dev node-fetch
+```
+
 </details>
 
 # Next Step
