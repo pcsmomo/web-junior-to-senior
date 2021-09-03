@@ -4,13 +4,13 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
 
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li><a href="#section-2-ssh">Section 2: SSH</a></li>
     <li><a href="#section-3-performance-part-1">Section 3: Performance Part 1</a></li>
     <li><a href="#section-4-react-redux-module-bundling">Section 4: React + Redux + Module Bundling</a></li>
     <li><a href="#section-5-performance-part-2">Section 5: Performance Part 2</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
+    <li><a href="#section-6-testing">Section 6: Testing</a></li>
+  </ul>
 </details>
 
 # Details
@@ -555,6 +555,13 @@ https://pcsmomo.github.io/monsters-rolodex
 ### 159. Solution Files - PWA
 
 [Progressive Tooling](https://progressivetooling.com/)
+
+</details>
+
+## Section 6: Testing
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
 
 </details>
 
