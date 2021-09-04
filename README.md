@@ -601,6 +601,11 @@ npm test -- --coverage
 App.js was complicated as it has connect() and also render all components.\
 So, we separate it to MainPage to only render components
 
+### 194. Testing Reducers
+
+> Reducers in this project are comparably easy to test as they are pure functions.
+
+
 </details>
 
 # Next Step
