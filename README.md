@@ -590,6 +590,8 @@ npm install --save-dev node-fetch
 > - If you want to test component lifecycle and children behavior, use mount
 > - If you want to test children rendering with less overhead than mount and you are not interested in lifecycle methods, use render
 
+### 185. Snapshot Testing
+
 </details>
 
 # Next Step
