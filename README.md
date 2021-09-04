@@ -576,6 +576,20 @@ npm install --save-dev node-fetch
 
 [Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet)
 
+### 182. Introduction To Enzyme
+
+- **shallow** renders only the component excluding child components\
+  -> It is good to test only one component
+- **mount** does a full render, whole DOM
+- **render** is kind of between shallow and mount. It doesn't render child
+
+> [Enzyme render diffs](https://gist.github.com/fokusferit/e4558d384e4e9cab95d04e5f35d4f9130)\
+> So my rule of thumbs is:
+>
+> - Always begin with shallow (As of Enzyme v3 shallow API does call React lifecycle methods)
+> - If you want to test component lifecycle and children behavior, use mount
+> - If you want to test children rendering with less overhead than mount and you are not interested in lifecycle methods, use render
+
 </details>
 
 # Next Step
