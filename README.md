@@ -572,6 +572,10 @@ but in node, we need install a similar library
 npm install --save-dev node-fetch
 ```
 
+### 176. Asynchronous Tests 2
+
+[Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet)
+
 </details>
 
 # Next Step
