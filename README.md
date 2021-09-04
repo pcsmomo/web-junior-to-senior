@@ -592,6 +592,15 @@ npm install --save-dev node-fetch
 
 ### 185. Snapshot Testing
 
+```sh
+npm test -- --coverage
+```
+
+### 191. Testing Connected Components
+
+App.js was complicated as it has connect() and also render all components.\
+So, we separate it to MainPage to only render components
+
 </details>
 
 # Next Step
