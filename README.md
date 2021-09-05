@@ -617,6 +617,22 @@ npm install --save-dev nock
 
 </details>
 
+## Section 7: TypeScript
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 204. Static Typing In Javascript
+
+Static Typing Tools
+
+- Flow (Babel) : Babel removes and translates
+- Typescript (Compiler) : Superset of javascript, typescript is trying to go with javascript
+- Elm (Compiler) : Different own language
+- Reasonml (Compiler) : Different language, facebook
+
+</details>
+
 # Next Step
 
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
