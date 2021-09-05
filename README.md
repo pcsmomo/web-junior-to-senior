@@ -605,6 +605,15 @@ So, we separate it to MainPage to only render components
 
 > Reducers in this project are comparably easy to test as they are pure functions.
 
+### 195. Testing Actions
+
+```sh
+npm install --save-dev redux-mock-store
+```
+
+```sh
+npm install --save-dev nock
+```
 
 </details>
 
