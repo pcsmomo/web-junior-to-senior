@@ -641,9 +641,20 @@ tsc
 
 ### 208. TypeScript
 
+Typescript Compile
+
 ```sh
 tsc typescript.ts
 # it generates typescript.js
+```
+
+### 210. TypeScript 2
+
+Typescript Init and Watch mode
+
+```sh
+tsc --init
+tsc typescript.ts --watch
 ```
 
 </details>
