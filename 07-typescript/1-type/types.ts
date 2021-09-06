@@ -119,3 +119,10 @@ class Animal {
 
 let lion = new Animal('RAAWWWR');
 console.log(lion.great());
+
+// Union
+let confused: string | number = 'hello';
+
+// implicit
+let x = 4;
+x = 'hello';

@@ -73,3 +73,8 @@ var Animal = /** @class */ (function () {
 }());
 var lion = new Animal('RAAWWWR');
 console.log(lion.great());
+// Union
+var confused = 'hello';
+// implicit
+var x = 4;
+x = 'hello';
