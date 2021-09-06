@@ -42,3 +42,9 @@ var sing = function () {
 var error = function () {
     throw Error('ooops');
 };
+var fightRobotArmy = function (robots) {
+    console.log('FIGHT');
+};
+var fightRobotArmy2 = function (robots) {
+    console.log('FIGHT');
+};

@@ -657,6 +657,11 @@ tsc --init
 tsc typescript.ts --watch
 ```
 
+### 215. TypeScript 6
+
+[Type vs Interface : Stackoverflow](https://stackoverflow.com/questions/37233735/typescript-interfaces-vs-types)
+[Type vs Interface : Typescript DOC](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+
 </details>
 
 # Next Step
