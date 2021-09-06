@@ -631,6 +631,21 @@ Static Typing Tools
 - Elm (Compiler) : Different own language
 - Reasonml (Compiler) : Different language, facebook
 
+### 205. TypeScript Compiler
+
+```sh
+sudo npm install -g typescript
+
+tsc
+```
+
+### 208. TypeScript
+
+```sh
+tsc typescript.ts
+# it generates typescript.js
+```
+
 </details>
 
 # Next Step
