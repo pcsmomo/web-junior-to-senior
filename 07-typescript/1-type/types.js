@@ -51,3 +51,25 @@ var fightRobotArmy2 = function (robots) {
 };
 var dog = {}; // Can be dangerous
 dog.count;
+// Function
+var fightRobotArmy3 = function (robot) {
+    console.log('FIGHT');
+};
+var fightRobotArmy4 = function (robot) {
+    console.log('FIGHT');
+    return 5;
+};
+// Classes
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = 'alaallalala';
+        this.singPrivate = 'lala';
+        this.sing = sound;
+    }
+    Animal.prototype.great = function () {
+        return "Hello, " + this.sing;
+    };
+    return Animal;
+}());
+var lion = new Animal('RAAWWWR');
+console.log(lion.great());

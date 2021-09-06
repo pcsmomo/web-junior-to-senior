@@ -88,3 +88,34 @@ interface CatArmy {
 
 let dog = {} as CatArmy; // Can be dangerous
 dog.count;
+
+// Function
+let fightRobotArmy3 = (robot: RobotArmy): void => {
+  console.log('FIGHT');
+};
+
+let fightRobotArmy4 = (robot: {
+  count: number;
+  type: string;
+  magic: string;
+}): number => {
+  console.log('FIGHT');
+  return 5;
+};
+
+// Classes
+class Animal {
+  public sing: string = 'alaallalala';
+  private singPrivate: string = 'lala';
+
+  constructor(sound: string) {
+    this.sing = sound;
+  }
+
+  great() {
+    return `Hello, ${this.sing}`;
+  }
+}
+
+let lion = new Animal('RAAWWWR');
+console.log(lion.great());
