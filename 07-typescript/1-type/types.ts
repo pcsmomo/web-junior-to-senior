@@ -35,3 +35,19 @@ let sizeName: string = Size[2];
 let sizeNumber: number = Size.Large;
 // console.log(sizeName);
 // console.log(sizeNumber);
+
+// Any - !!!!!!!!!!!! BE CAREFUL
+let whatever: any = 'aghhhhhhhhhhhh nooooooooooooo!!';
+whatever = basket;
+
+// void
+let sing = (): void => {
+  console.log('lalalala');
+};
+
+// never
+// 1. never return
+// 2. never true
+let error = (): never => {
+  throw Error('ooops');
+};

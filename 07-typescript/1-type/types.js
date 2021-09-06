@@ -29,3 +29,16 @@ var sizeName = Size[2];
 var sizeNumber = Size.Large;
 // console.log(sizeName);
 // console.log(sizeNumber);
+// Any - !!!!!!!!!!!! BE CAREFUL
+var whatever = 'aghhhhhhhhhhhh nooooooooooooo!!';
+whatever = basket;
+// void
+var sing = function () {
+    console.log('lalalala');
+};
+// never
+// 1. never return
+// 2. never true
+var error = function () {
+    throw Error('ooops');
+};
