@@ -45,6 +45,9 @@ var error = function () {
 var fightRobotArmy = function (robots) {
     console.log('FIGHT');
 };
+fightRobotArmy({ count: 1, type: 'dragon' });
 var fightRobotArmy2 = function (robots) {
     console.log('FIGHT');
 };
+var dog = {}; // Can be dangerous
+dog.count;
