@@ -702,6 +702,25 @@ Server side rendering React would be something like this,
 
 But SSR in React can get quite complicated and messy. Next.js would be a better option.
 
+### 235. CSR vs SSR Part 2
+
+1. CSR
+   - Pros
+     - Rich Interactions
+     - Faster Response
+     - Web Applications
+   - Cons
+     - Low SEO Potential
+     - Longer Initial Load
+2. SSR
+   - Pros
+     - Static Sites
+     - SEO
+     - Initial Page Load
+   - Cons
+     - Full Page Reloads
+     - Slower Page Rendering (Requests to server)
+
 </details>
 
 # Next Step
