@@ -679,6 +679,12 @@ Website for Standard Types
 
 [The Very First Website : info.cern.ch](http://info.cern.ch/)
 
+### 232. CSR vs SSR
+
+- CSR : Client Side Rendering
+  - Initial loading is heavier
+- SSR : Server Side Rendering
+  - Every Page request is heavier
 
 </details>
 
