@@ -671,6 +671,10 @@ Website for Standard Types
 
 [robofriends-typescript start repo](https://github.com/aneagoie/robofriends-typescript)
 
+### 226. Solution: #1 - TypeScript In Robofriends
+
+[How to use Definitely Typed : Interface HTMLElement](http://definitelytyped.org/docs/flipsnap--flipsnap/interfaces/htmlelement.html)
+
 </details>
 
 # Next Step
