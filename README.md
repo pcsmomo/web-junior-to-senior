@@ -662,6 +662,15 @@ tsc typescript.ts --watch
 [Type vs Interface : Stackoverflow](https://stackoverflow.com/questions/37233735/typescript-interfaces-vs-types)
 [Type vs Interface : Typescript DOC](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
 
+### 222. DefinitelyTyped
+
+Website for Standard Types
+[Definitely Typed](https://definitelytyped.org/)
+
+### 224. Exercise: #1 - TypeScript In Robofriends
+
+[robofriends-typescript start repo](https://github.com/aneagoie/robofriends-typescript)
+
 </details>
 
 # Next Step
