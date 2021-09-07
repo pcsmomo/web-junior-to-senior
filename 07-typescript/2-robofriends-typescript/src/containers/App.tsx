@@ -19,7 +19,7 @@ interface IAppState {
 }
 
 class App extends React.Component<IAppProps, IAppState> {
-  constructor(props) {
+  constructor(props: IAppProps) {
     super(props)
     this.state = {
       robots: [],
