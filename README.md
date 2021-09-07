@@ -686,6 +686,22 @@ Website for Standard Types
 - SSR : Server Side Rendering
   - Every Page request is heavier
 
+### 233. Server Side Rendering React
+
+- Client Side
+  - ReactDOM.hydrate()
+- Server Side
+  - ReactDOMServer.renderToNodeStream()
+  - ReactDOMServer.renderToString()
+
+### 233. Server Side Rendering React
+
+Server side rendering React would be something like this,
+
+08-server-side-rendering/server.js
+
+But SSR in React can get quite complicated and messy. Next.js would be a better option.
+
 </details>
 
 # Next Step
