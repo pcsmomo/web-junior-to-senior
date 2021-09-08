@@ -734,6 +734,17 @@ Where do you want the work to happen?
 1. Client
 2. Server
 3. Developer
+4.
+
+### 239. Setting Up Next.js
+
+```sh
+mkdir next-ssr
+cd next-ssr
+npm init -y
+npm install next react react-dom --save
+
+```
 
 </details>
 
