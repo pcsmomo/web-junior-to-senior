@@ -675,6 +675,12 @@ Website for Standard Types
 
 [How to use Definitely Typed : Interface HTMLElement](http://definitelytyped.org/docs/flipsnap--flipsnap/interfaces/htmlelement.html)
 
+</details>
+## Section 8: SPA vs Server Side Rendering
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
 ### 231. Section Overview
 
 [The Very First Website : info.cern.ch](http://info.cern.ch/)
@@ -720,6 +726,14 @@ But SSR in React can get quite complicated and messy. Next.js would be a better 
    - Cons
      - Full Page Reloads
      - Slower Page Rendering (Requests to server)
+
+### 237. Static vs SSR vs CSR: Gatsby.js vs Next.js vs React.js
+
+Where do you want the work to happen?
+
+1. Client
+2. Server
+3. Developer
 
 </details>
 
