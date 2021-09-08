@@ -771,6 +771,13 @@ Robots.getInitialProps = async function () {
 };
 ```
 
+### 245. Exercise: #2 - Updated Next.js Features
+
+1. It's recommended to use _getStaticProps_ or _getServerSideProps_ for data fetching now instead of _getInitialProps_: \
+   https://nextjs.org/docs/api-reference/data-fetching/getInitialProps
+2. We no longer need to import isomorphic-unfetch. So update the code by removing it: \
+   https://nextjs.org/blog/next-9-4#improved-built-in-fetch-support
+
 </details>
 
 # Next Step
