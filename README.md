@@ -743,7 +743,12 @@ mkdir next-ssr
 cd next-ssr
 npm init -y
 npm install next react react-dom --save
+```
 
+### 241. Client Side Routing
+
+```js
+import Link from 'next/link';
 ```
 
 </details>
