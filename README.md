@@ -757,6 +757,20 @@ import Link from 'next/link';
 npm install --save isomorphic-unfetch
 ```
 
+```js
+Robots.getInitialProps = async function () {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users');
+  const data = await res.json();
+
+  // Initial refresh : console.log on server
+  // Revisiting the page : console.log on client
+  console.log(data);
+  return {
+    robots: data
+  };
+};
+```
+
 </details>
 
 # Next Step
