@@ -751,6 +751,12 @@ npm install next react react-dom --save
 import Link from 'next/link';
 ```
 
+### 244. Dynamic Apps with Next.js
+
+```sh
+npm install --save isomorphic-unfetch
+```
+
 </details>
 
 # Next Step
