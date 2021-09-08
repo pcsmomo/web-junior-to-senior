@@ -778,9 +778,20 @@ Robots.getInitialProps = async function () {
 2. We no longer need to import isomorphic-unfetch. So update the code by removing it: \
    https://nextjs.org/blog/next-9-4#improved-built-in-fetch-support
 
+### 246. Deploying Next.js Apps
+
+Andrei mentioned _now_ but that package is deprecated \
+
+> "now" is deprecated and will stop receiving updates on December 31, 2020. Please use "vercel" instead.
+
+[Vercel](https://vercel.com/docs#)
+
+I should try vercel and serverless for CD
+
 </details>
 
 # Next Step
 
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
 - Review Performance and digest them again
+- Use Vercel and Serverless
