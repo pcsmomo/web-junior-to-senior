@@ -855,6 +855,16 @@ p.appendChild(textnode);
    - Object relational mappers
 3. [Knex.js - A SQL Query Builder for Javascript](https://knexjs.org/)
 
+### 258. 3rd Party Libraries
+
+```sh
+npm install -g nsp
+nsp check # audit package.json
+
+npm install -g snyk
+snyk test # audit node_modules directory
+```
+
 </details>
 
 # Next Step
