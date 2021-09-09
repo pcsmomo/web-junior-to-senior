@@ -676,6 +676,7 @@ Website for Standard Types
 [How to use Definitely Typed : Interface HTMLElement](http://definitelytyped.org/docs/flipsnap--flipsnap/interfaces/htmlelement.html)
 
 </details>
+
 ## Section 8: SPA vs Server Side Rendering
 
 <details open>
@@ -791,6 +792,68 @@ I should try vercel and serverless for CD
 ### 249. Understand JavaScript SEO
 
 [Understand the JavaScript SEO basics](https://developers.google.com/search/docs/advanced/javascript/javascript-seo-basics)
+
+[16 Ways to Search, Find and Edit with Chrome DevTools](https://www.telerik.com/blogs/16-ways-to-search-find-and-edit-with-chrome-devtools)
+
+</details>
+
+## Section 9: Security
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 253. Star Of Security
+
+1. Injections
+2. 3rd Party Library
+3. Logging
+4. HTTPS Everywhere
+5. XSS & CSRF
+6. Code Secret
+7. Secure Headers
+8. Access Control
+9. Data Management
+10. Don't Trust Anyone
+11. Authentication
+
+### 254. Injections
+
+[PSequel : PostgresSQL GUI for Mac](http://www.psequel.com/)
+
+1. SQL Injection
+
+```sql
+INSERT INTO sqlinjection (email) VALUE ('lol');
+
+-- Drop Table
+INSERT INTO sqlinjection (email) VALUE (; DROP TABLE users; --);
+INSERT INTO sqlinjection (email) VALUE (; DROP TABLE sqlinjection; --);
+
+-- Ignoring password
+-- ' or 1=1--
+WHERE password = 'password' or 1=1;
+```
+
+2. Script Injection
+
+```js
+// Input this script in a input field
+<img src="/wrong-path" onerror="alert('boom');" />;
+
+// Bad
+p.innerHTML = input;
+// Better
+const textnode = document.createTextNode(input);
+p.appendChild(textnode);
+```
+
+#### Solution
+
+1. Sanitize Input
+   - White list and Black list
+2. Parametrize Querys
+   - Object relational mappers
+3. [Knex.js - A SQL Query Builder for Javascript](https://knexjs.org/)
 
 </details>
 
