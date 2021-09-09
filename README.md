@@ -788,6 +788,10 @@ Andrei mentioned _now_ but that package is deprecated \
 
 I should try vercel and serverless for CD
 
+### 249. Understand JavaScript SEO
+
+[Understand the JavaScript SEO basics](https://developers.google.com/search/docs/advanced/javascript/javascript-seo-basics)
+
 </details>
 
 # Next Step
