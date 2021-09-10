@@ -865,6 +865,23 @@ npm install -g snyk
 snyk test # audit node_modules directory
 ```
 
+### 260. Logging
+
+> There is no perfect answer for logging
+
+For Node
+
+1. [morgan](https://www.npmjs.com/package/morgan)
+   ```sh
+   npm install morgan
+   ```
+2. [winston - it's like console.log(), good for production](https://www.npmjs.com/package/winston)
+   ```sh
+   npm install winston
+   ```
+
+> Sensetive information should not go to the front end, as it can be hacked.
+
 </details>
 
 # Next Step
