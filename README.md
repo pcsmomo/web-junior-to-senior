@@ -1005,6 +1005,19 @@ for example CORS, limiting access origins
    > bscrypt responses a little late to slow down bad actors attempt
 2. Encrypt : pgcrypto - encrypt a few columns for posgres SQL
 
+### 271. Don’t Trust Anyone
+
+To prevent DDOS(Distributed Denial of Service) attack
+[npm ratelimiter - Rate limiter for Node.js backed by Redis](https://www.npmjs.com/package/ratelimiter)
+
+### 273. Exercise: #4 - Optional Hacking
+
+To learn about hacking - [HACKSPLAINING](https://www.hacksplaining.com/lessons)
+
+### 274. Resources: Personal Security
+
+[What Your Hace](https://watchyourhack.com/)
+
 </details>
 
 # Next Step
