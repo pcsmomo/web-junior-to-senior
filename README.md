@@ -1018,6 +1018,10 @@ To learn about hacking - [HACKSPLAINING](https://www.hacksplaining.com/lessons)
 
 [What Your Hace](https://watchyourhack.com/)
 
+### 275. Section Summary
+
+[OWASP Top 10 - Latest Security Features](https://owasp.org/Top10/)
+
 </details>
 
 # Next Step
