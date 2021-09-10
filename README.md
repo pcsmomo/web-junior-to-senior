@@ -949,6 +949,24 @@ It can be prevented by CSP (Content Security Policy)
 - [CSP : Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 - [Using HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
+### 265. Code Secrets
+
+1. Environmental Variables
+   - If use Create React App
+   ```js
+   process.env.NODE_ENV;
+   ```
+   ```sh
+   # .env
+   REACT_APP_SAY_HI = HIII
+   ```
+   - If not using Create React App, install [dotenv](https://www.npmjs.com/package/dotenv)
+     ```sh
+     npm insetall dotenv --save
+     ```
+2. Commit History
+   - Do not write secret data to commit
+
 </details>
 
 # Next Step
