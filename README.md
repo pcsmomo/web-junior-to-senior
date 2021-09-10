@@ -847,6 +847,8 @@ const textnode = document.createTextNode(input);
 p.appendChild(textnode);
 ```
 
+[SQL Injection Exercise](https://www.hacksplaining.com/exercises/sql-injection)
+
 #### Solution
 
 1. Sanitize Input
@@ -881,6 +883,13 @@ For Node
    ```
 
 > Sensetive information should not go to the front end, as it can be hacked.
+
+### 261. HTTPS Everywhere
+
+- [Let's Encrypt](https://letsencrypt.org/)
+- [Cloudflare](https://www.cloudflare.com/)
+
+> Wow.. this website is recommended by so many instructors
 
 </details>
 
