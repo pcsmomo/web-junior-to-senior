@@ -967,6 +967,44 @@ It can be prevented by CSP (Content Security Policy)
 2. Commit History
    - Do not write secret data to commit
 
+### 266. Secure Headers
+
+- [npm helmet](https://www.npmjs.com/package/helmet)
+- [helpmet gihub](https://github.com/helmetjs/helmet)
+
+Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+
+### 267. Resources: Secure Headers
+
+Articles to read about HTTP
+
+- [HTTP: The Protocol Every Web Developer Must Know - Part 1](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+- [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [HTTP - Header Fields](https://www.tutorialspoint.com/http/http_header_fields.htm)
+
+### 268. Access Control
+
+Principal of least privilege
+
+for example CORS, limiting access origins
+
+### 269. Data Management
+
+1. Hashing password : bcrypt, scrypt, Aragon2
+   - `npm bcrypt`
+   ```js
+   // To hash a password
+   bcrypt.hash(myPlaintextPassword, saltRounds, function (err, hash) {
+     // Store hash in your password DB.
+   });
+   // To Check a password
+   bcrypt.compare(myPlaintextPassword, hash, function (err, result) {
+     // result == true
+   });
+   ```
+   > bscrypt responses a little late to slow down bad actors attempt
+2. Encrypt : pgcrypto - encrypt a few columns for posgres SQL
+
 </details>
 
 # Next Step
