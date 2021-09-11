@@ -1038,8 +1038,8 @@ npm extra pakcages
    - [knex : A SQL Query Builder for Javascript](https://knexjs.org/)
    - pg : postgreSQL
 2. smart-brain
-   - react-particles-js
-   - react-tilt
+   - [react-particles-js - Particle Background](https://github.com/Wufe/react-particles-js)
+   - [react-tilt - Hover for Logo](https://www.npmjs.com/package/react-tilt)
 
 ```sh
 # Start postgresql and create the db
@@ -1085,6 +1085,12 @@ createdb 'test'
 psql 'test'
 brew services stop postgresql
 ```
+
+### 283. How To Analyze Code
+
+> When people look at code first, many start criticise  the code,\
+> But we don't know what was the situation for example, requirements changing, training junior developer or time schedule.\
+> So it is important to be neutral to work all together.
 
 </details>
 
