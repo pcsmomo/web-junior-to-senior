@@ -1024,6 +1024,70 @@ To learn about hacking - [HACKSPLAINING](https://www.hacksplaining.com/lessons)
 
 </details>
 
+## Section 10: Code Analysis
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 280. Setting Up Your Environment
+
+npm extra pakcages
+
+1. smart-brain-api
+   - [clarifai - machine learning, AI](https://www.clarifai.com/)
+   - [knex : A SQL Query Builder for Javascript](https://knexjs.org/)
+   - pg : postgreSQL
+2. smart-brain
+   - react-particles-js
+   - react-tilt
+
+```sh
+# Start postgresql and create the db
+brew services start postgresql
+createdb 'smart-brain'
+```
+
+```sql
+-- create tables
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100),
+  email TEXT UNIQUE NOT NULL,
+  entries BIGINT DEFAULT 0,
+  joined TIMESTAMP NOT NULL
+);
+
+CREATE TABLE login (
+  id SERIAL PRIMARY KEY,
+  hash VARCHAR(100) NOT NULL,
+  email TEXT UNIQUE NOT NULL
+);
+```
+
+```sh
+# connect db with dbeaver (works) / PSequel (didn't work for me)
+
+# or connect in console
+psql postgres://@localhost:5432/smart-brain
+# display table
+\d
+```
+
+### 282. Optional: CWD - Installing PostgreSQL
+
+```sh
+brew update
+brew doctor
+brew install postgresql
+brew services start postgresql
+createdb 'test'
+# Connect to 'test'
+psql 'test'
+brew services stop postgresql
+```
+
+</details>
+
 # Next Step
 
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
