@@ -1,0 +1,49 @@
+.header {
+  font-size: 18px;
+  color: rgba(255, 91, 0, 1);
+  font-weight: 800;
+  margin-top: auto;
+}
+
+.logout {
+  color: rgba(0,172,193,1);
+  margin: 0.5em;
+  font-size: 0.7em;
+  margin-top: auto;
+}
+.logo {
+  width: 80px;
+  height: 90px;
+  opacity: 0.5
+}
+
+.info{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.input {
+  margin: 1em;
+  border: none;
+  color: rgba(255, 91, 0, 1);
+  border-bottom: 1px solid rgba(255, 91, 0, 1);
+  width: 12rem;
+  font-size: 14px;
+}
+.input::placeholder {
+ color: rgba(255, 91, 0, 1);
+}
+.button {
+  transition: 0.1s ease-in-out;
+  border: 1px solid rgba(255, 91, 0, 1);
+  color: rgba(255, 91, 0, 1);
+  background: rgba(255, 255, 255, 1);
+  height: 2rem;
+  width: 6rem;
+  font-weight: 900;
+}
+.button:hover {
+  background: rgba(255, 91, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
