@@ -1104,6 +1104,17 @@ brew services stop postgresql
 <details open>
   <summary>Click to Contract/Expend</summary>
 
+### 296. Dockerfile
+
+```sh
+# Build the image
+docker build -t superawesomecontainer .
+
+# Get into container
+docker run -it superawesomecontainer
+# root@cf26f0348afc:/usr/src/app#
+```
+
 </details>
 
 # Next Step
