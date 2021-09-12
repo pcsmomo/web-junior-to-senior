@@ -10,6 +10,11 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
     <li><a href="#section-4-react-redux-module-bundling">Section 4: React + Redux + Module Bundling</a></li>
     <li><a href="#section-5-performance-part-2">Section 5: Performance Part 2</a></li>
     <li><a href="#section-6-testing">Section 6: Testing</a></li>
+    <li><a href="#section-7-typescript">Section 7: TypeScript</a></li>
+    <li><a href="#section-8-spa-vs-server-side-rendering">Section 8: SPA vs Server Side Rendering</a></li>
+    <li><a href="#section-9-security">Section 9: Security</a></li>
+    <li><a href="#section-10-code-analysis">Section 10: Code Analysis</a></li>
+    <li><a href="#section-11-docker">Section 11: Docker</a></li>
   </ul>
 </details>
 
@@ -1088,9 +1093,16 @@ brew services stop postgresql
 
 ### 283. How To Analyze Code
 
-> When people look at code first, many start criticise  the code,\
+> When people look at code first, many start criticise the code,\
 > But we don't know what was the situation for example, requirements changing, training junior developer or time schedule.\
 > So it is important to be neutral to work all together.
+
+</details>
+
+## Section 11: Docker
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
 
 </details>
 
