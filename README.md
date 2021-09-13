@@ -1124,6 +1124,22 @@ docker exec -it [CONTAINER ID] bash
 docker stop [CONTAINER ID]
 ```
 
+### 299. Dockerfile 2
+
+```sh
+docker build -t superawesomecontainer .
+docker run -it superawesomecontainer
+npm start
+# localhost:3000 -> Cannot connect
+
+docker run -it -p 3000:3000 superawesomecontainer
+# localhost:3000 -> Working
+
+# After changing any file, I need to re build the container
+docker build -t superawesomecontainer .
+docker run -it -p 3000:3000 superawesomecontainer
+```
+
 </details>
 
 # Next Step
