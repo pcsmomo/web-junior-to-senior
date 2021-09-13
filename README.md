@@ -1140,6 +1140,34 @@ docker build -t superawesomecontainer .
 docker run -it -p 3000:3000 superawesomecontainer
 ```
 
+### 300. Exercise: #1 - Your First Docker Container
+
+[Docker Usage](https://docs.docker.com/engine/reference/builder/#usage)
+
+### 302. Docker Compose
+
+```sh
+docker-compose build
+docker-compose run smart-brain-api
+# After changing docker-compose.yml, rebuild
+docker-compose build
+docker-compose run smart-brain-api
+```
+
+```sh
+# Add logging
+npm install --save morgan
+# and change server.js
+```
+
+```sh
+docker-compose down
+
+# docker-compose build
+# docker-compose run smart-brain-api
+docker-compose up --build
+```
+
 </details>
 
 # Next Step
