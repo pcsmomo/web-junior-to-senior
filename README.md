@@ -1115,6 +1115,15 @@ docker run -it superawesomecontainer
 # root@cf26f0348afc:/usr/src/app#
 ```
 
+### 298. Docker Commands
+
+```sh
+docker run -d superawesomecontainer
+docker ps
+docker exec -it [CONTAINER ID] bash
+docker stop [CONTAINER ID]
+```
+
 </details>
 
 # Next Step
