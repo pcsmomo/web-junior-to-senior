@@ -15,6 +15,7 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
     <li><a href="#section-9-security">Section 9: Security</a></li>
     <li><a href="#section-10-code-analysis">Section 10: Code Analysis</a></li>
     <li><a href="#section-11-docker">Section 11: Docker</a></li>
+    <li><a href="#section-12-redis">Section 12: Redis</a></li>
   </ul>
 </details>
 
@@ -1191,6 +1192,24 @@ docker-compose exec smart-brain-api bash
 ```sh
 docker-compose up --build
 ```
+
+</details>
+
+## Section 12: Redis
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 318. Section Overview
+
+Redis : NoSQL in-memory database
+
+Classification of NoSQL Databases
+
+- Key-Value : Redis
+- Document : MongoDB, CouchDB
+- Wide Column : cassadra
+- Graph : neo4j
 
 </details>
 
