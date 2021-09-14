@@ -1168,6 +1168,12 @@ docker-compose down
 docker-compose up --build
 ```
 
+### 303. Resources: Docker Compose Commands
+
+- [docker-compose build](https://docs.docker.com/compose/reference/build/)
+- [docker-compose run](https://docs.docker.com/compose/reference/run/)
+- [docker-compose up](https://docs.docker.com/compose/reference/up/)
+
 </details>
 
 # Next Step
