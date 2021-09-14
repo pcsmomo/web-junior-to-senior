@@ -29,6 +29,7 @@ services:
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: smart-brain-docker
     # container_name: postgres  # error would occur
-    image: postgres
+    # image: postgres
+    build: postgres
     ports:
       - '5432:5432'
