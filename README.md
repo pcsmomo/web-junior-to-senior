@@ -1179,6 +1179,19 @@ docker-compose up --build
 - [What is the purpose of VOLUME in Dockerfile](https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile)
 - [Docker Volumes and Networks with Compose](https://www.linux.com/topic/cloud/docker-volumes-and-networks-compose/)
 
+### 306. Docker Compose 3
+
+```sh
+docker-compose up -d
+docker-compose exec smart-brain-api bash
+```
+
+### 307. Docker Compose 4 : Add PostgreSQL
+
+```sh
+docker-compose up --build
+```
+
 </details>
 
 # Next Step

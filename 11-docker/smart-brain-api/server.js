@@ -10,15 +10,21 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
+// const db = knex({
+//   // connect to your own database here:
+//   client: 'pg',
+//   connection: {
+//     host: process.env.POSTGRES_HOST,
+//     user: process.env.POSTGRES_USER,
+//     password: process.env.POSTGRES_PASSWORD,
+//     database: process.env.POSTGRES_DB
+//   }
+// });
+
 const db = knex({
   // connect to your own database here:
   client: 'pg',
-  connection: {
-    host: '127.0.0.1',
-    user: '',
-    password: '',
-    database: 'smart-brain'
-  }
+  connection: process.env.POSTGRES_URI
 });
 
 const app = express();
