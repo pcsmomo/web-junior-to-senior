@@ -1217,6 +1217,11 @@ Classification of NoSQL Databases
 <details open>
   <summary>Click to Contract/Expend</summary>
 
+### 318. Section Overview
+
+Redis is in-memory key-value db and extremely fast.\
+But it could lose data for the last a few minutes or something.
+
 ### 321. Installing Redis
 
 [Redis - download and install](https://redis.io/download)
@@ -1258,6 +1263,23 @@ $ src/redis-server
 $ src/redis-cli
 # 127.0.0.1:6379 >
 ````
+
+### 323. Redis Commands
+
+[Redis Commands](https://redis.io/commands)
+
+```sql
+
+SET name "Godzilla"
+GET name
+EXISTS name
+DEL name
+
+-- Expire
+SET session "Jenny"
+EXPIRE session 10
+GET session
+```
 
 </details>
 
