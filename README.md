@@ -1294,12 +1294,21 @@ GET counter
 - Sets
 - Sorted sets
 
-```sh
+```sql
 # Multiple set/get strings
 MSET a 2 b 5
 GET a
 GET b
 MGET a b
+```
+
+### 325. Redis Hashes
+
+```sql
+HMSET user id 45 name "Johnny"
+HGET user id
+HGET user name
+HGETALL user
 ```
 
 </details>
