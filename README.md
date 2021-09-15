@@ -1279,6 +1279,27 @@ DEL name
 SET session "Jenny"
 EXPIRE session 10
 GET session
+
+SET counter 1000
+INCRBY counter 33
+DECR counter
+GET counter
+```
+
+### 324. Redis Data Types
+
+- Strings
+- Hashes
+- Lists
+- Sets
+- Sorted sets
+
+```sh
+# Multiple set/get strings
+MSET a 2 b 5
+GET a
+GET b
+MGET a b
 ```
 
 </details>
