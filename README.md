@@ -1294,7 +1294,7 @@ GET counter
 - Sets
 - Sorted sets
 
-```sql
+```sh
 # Multiple set/get strings
 MSET a 2 b 5
 GET a
@@ -1304,11 +1304,32 @@ MGET a b
 
 ### 325. Redis Hashes
 
-```sql
+```sh
 HMSET user id 45 name "Johnny"
 HGET user id
 HGET user name
 HGETALL user
+```
+
+### 326. Redis Lists
+
+In Redix, List (Linked List). \
+insertiIon is very fast, but searching is not fast.\
+Sorted Set is faster for getting or searching
+
+```sh
+# Push
+LPUSH ourlist 10
+RPUSH ourlist "hellow"
+LRANGE ourlist 0 1
+# 1) "10"
+# 2) "hellow"
+LPUSH ourlist 55
+LRANGE ourlist 0 2
+
+# POP
+RPOP ourlist
+LRANGE ourlist 0 2
 ```
 
 </details>
