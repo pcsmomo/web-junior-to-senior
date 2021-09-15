@@ -1210,6 +1210,54 @@ Classification of NoSQL Databases
 - Document : MongoDB, CouchDB
 - Wide Column : cassadra
 - Graph : neo4j
+</details>
+
+## Section 12: Redis
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 321. Installing Redis
+
+[Redis - download and install](https://redis.io/download)
+
+```sh
+$ tar xzf redis-6.2.5.tar.gz
+$ cd redis-6.2.5
+$ make
+$ make test # So long....
+```
+
+````sh
+# 1. Run server
+$ src/redis-server
+# 98782:C 16 Sep 2021 08:01:59.042 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+# 98782:C 16 Sep 2021 08:01:59.042 # Redis version=6.2.5, bits=64, commit=00000000, modified=0, pid=98782, just started
+# 98782:C 16 Sep 2021 08:01:59.042 # Warning: no config file specified, using the default config. In order to specify a config file use src/redis-server /path/to/redis.conf
+# 98782:M 16 Sep 2021 08:01:59.043 * Increased maximum number of open files to 10032 (it was originally set to 256).
+# 98782:M 16 Sep 2021 08:01:59.043 * monotonic clock: POSIX clock_gettime
+#                 _._
+#            _.-``__ ''-._
+#       _.-``    `.  `_.  ''-._           Redis 6.2.5 (00000000/0) 64 bit
+#   .-`` .-```.  ```\/    _.,_ ''-._
+#  (    '      ,       .-`  | `,    )     Running in standalone mode
+#  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+#  |    `-._   `._    /     _.-'    |     PID: 98782
+#   `-._    `-._  `-./  _.-'    _.-'
+#  |`-._`-._    `-.__.-'    _.-'_.-'|
+#  |    `-._`-._        _.-'_.-'    |           https://redis.io
+#   `-._    `-._`-.__.-'_.-'    _.-'
+#  |`-._`-._    `-.__.-'    _.-'_.-'|
+#  |    `-._`-._        _.-'_.-'    |
+#   `-._    `-._`-.__.-'_.-'    _.-'
+#       `-._    `-.__.-'    _.-'
+#           `-._        _.-'
+#               `-.__.-'
+
+# 2. Connect to cli
+$ src/redis-cli
+# 127.0.0.1:6379 >
+````
 
 </details>
 
