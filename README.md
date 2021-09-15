@@ -1332,6 +1332,32 @@ RPOP ourlist
 LRANGE ourlist 0 2
 ```
 
+### 327. Redis Sets + Sorted Sets
+
+```sh
+SADD ourset 1 2 3 4 5
+SMEMBERS ourset
+SADD ourset 1 2 3
+SMEMBERS ourset
+# the same result
+
+# IS MEMBER
+SISMEMBER ourset 5
+SISMEMBER ourset 20
+
+# SORTED SET
+ZADD team 50 "Wizards"
+ZADD team 40 "Cavaliers"
+ZRANGE team 0 1
+ZADD team 1 "Bolts"
+ZRANGE team 0 2
+# All sorted
+# 1) "Bolts"
+# 2) "Cavaliers"
+# 3) "Wizards"
+ZRANK team "Wizards"
+```
+
 </details>
 
 # Next Step
