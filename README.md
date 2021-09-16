@@ -16,6 +16,7 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
     <li><a href="#section-10-code-analysis">Section 10: Code Analysis</a></li>
     <li><a href="#section-11-docker">Section 11: Docker</a></li>
     <li><a href="#section-12-redis">Section 12: Redis</a></li>
+    <li><a href="#section-13-session-jwt">Section 13: Sessions + JWT</a></li>
   </ul>
 </details>
 
@@ -1357,6 +1358,34 @@ ZRANGE team 0 2
 # 3) "Wizards"
 ZRANK team "Wizards"
 ```
+
+</details>
+
+## Section 13: Sessions JWT
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 329. Section Overview
+
+JWT : JSON Web Token
+
+### 330. Cookies vs Tokens
+
+1. Traditional Cookie-Based Auth
+   - Set-Cookie: session=...
+   - Both browser and backend need to store Session information.
+2. Modern Token-Based Auth
+   - token : ...JWT in \*Local storage, but can be stored in Session storage or a cookie in the browser
+   - Backend doesn't need to store session information
+   - Stateless
+   - It can be access from many API servers easily
+   - It can serve browser and IOS/Android as well
+   - Cons: delevery data could be bigger than simple cookie
+
+- [Cookies vs. Tokens: The Definitive Guide - Dzone](https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide)
+- [Token Authentication vs. Cookies - Stackoverflow](https://stackoverflow.com/questions/17000835/token-authentication-vs-cookies)
+- [Why JWTs Suck as Session Tokens - scotch.io](https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens)
 
 </details>
 
