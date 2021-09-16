@@ -1387,6 +1387,11 @@ JWT : JSON Web Token
 - [Token Authentication vs. Cookies - Stackoverflow](https://stackoverflow.com/questions/17000835/token-authentication-vs-cookies)
 - [Why JWTs Suck as Session Tokens - scotch.io](https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens)
 
+### 333. JWT
+
+- [jsonwebtoken - Github](https://github.com/auth0/node-jsonwebtoken)
+- [JWT.io](https://jwt.io/)
+
 </details>
 
 # Next Step
