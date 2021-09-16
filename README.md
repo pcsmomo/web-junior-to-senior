@@ -1392,6 +1392,12 @@ JWT : JSON Web Token
 - [jsonwebtoken - Github](https://github.com/auth0/node-jsonwebtoken)
 - [JWT.io](https://jwt.io/)
 
+### 337. Profile Icon
+
+```sh
+npm install --save bootstrap reactstrap
+```
+
 </details>
 
 # Next Step
