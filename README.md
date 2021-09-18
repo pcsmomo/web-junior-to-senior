@@ -1402,6 +1402,11 @@ npm install --save bootstrap reactstrap
 
 [HTML 4 Entity Name - &times; &amp;](https://www.w3schools.com/charsets/ref_html_entities_4.asp)
 
+### 351. User Authentication
+
+Useful Higher Order Function & Promise Return Pattern
+
+
 </details>
 
 # Next Step
