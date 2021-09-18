@@ -123,14 +123,14 @@ class App extends Component {
   };
 
   toggleModal = () => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       ...prevState,
       isProfileOpen: !prevState.isProfileOpen
-    }))
-  }
+    }));
+  };
 
   render() {
-  const { isSignedIn, imageUrl, route, boxes, isProfileOpen } = this.state;
+    const { isSignedIn, imageUrl, route, boxes, isProfileOpen } = this.state;
     return (
       <div className="App">
         <Particles className="particles" params={particlesOptions} />
@@ -138,12 +138,12 @@ class App extends Component {
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
           toggleModal={this.toggleModal}
-          />
-        { isProfileOpen &&
+        />
+        {isProfileOpen && (
           <Modal>
-            <Profile isProfileOpen={isProfileOpen} toggleModal={this.toggleModal} />
+            <Profile toggleModal={this.toggleModal} />
           </Modal>
-        }
+        )}
         {route === 'home' ? (
           <div>
             <Logo />
