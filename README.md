@@ -1398,6 +1398,10 @@ JWT : JSON Web Token
 npm install --save bootstrap reactstrap
 ```
 
+### 346. Resources: HTML Entities
+
+[HTML 4 Entity Name - &times; &amp;](https://www.w3schools.com/charsets/ref_html_entities_4.asp)
+
 </details>
 
 # Next Step
