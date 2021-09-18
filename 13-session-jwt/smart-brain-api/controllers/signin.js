@@ -1,4 +1,4 @@
-const handleSignin = (db, bcrypt) => (req, res) => {
+const handleSignin = (db, bcrypt, req, res) => {
   const { email, password } = req.body;
   if (!email || !password) {
     return res.status(400).json('incorrect form submission');
@@ -24,6 +24,17 @@ const handleSignin = (db, bcrypt) => (req, res) => {
     .catch((err) => res.status(400).json('wrong credentials'));
 };
 
+const getAuthTokenId = () => {
+  console.log('auth ok');
+};
+
+// Higher order function : = (db, bcrypt) => (req, res)
+const signinAuthentication = (db, bcrypt) => (req, res) => {
+  const { authorization } = req.headers;
+  return authorization ? getAuthTokenId() : handleSignin(db, bcrypt, req, res);
+};
+
 module.exports = {
-  handleSignin: handleSignin
+  // handleSignin: handleSignin,
+  signinAuthentication: signinAuthentication
 };
