@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Dropdown,
   DropdownToggle,
@@ -6,41 +6,51 @@ import {
   DropdownItem
 } from 'reactstrap';
 
-const ProfileIcon = (props) => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+class ProfileIcon extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dropdownOpen: false
+    };
+  }
 
-  const toggle = () => setDropdownOpen((prevState) => !prevState);
+  toggle = () =>
+    this.setState((prevState) => ({
+      dropdownOpen: !prevState.dropdownOpen
+    }));
 
-  return (
-    <div className="pa4 tc">
-      <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-        <DropdownToggle
-          tag="span"
-          data-toggle="dropdown"
-          aria-expanded={dropdownOpen}
-        >
-          <img
-            src="http://tachyons.io/img/logo.jpg"
-            className="br-100 ba h3 w3 dib"
-            alt="avatar"
-          />
-        </DropdownToggle>
-        <DropdownMenu
-          right
-          className="b--transparent shadow-5"
-          style={{
-            marginTop: '20px',
-            backgroundColor: 'rgba(255, 255, 255, 0.5'
-          }}
-        >
-          <DropdownItem>View Profile</DropdownItem>
-          <DropdownItem onClick={() => props.onRouteChange('signout')}>
-            Sign Out
-          </DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
-    </div>
-  );
-};
+  render() {
+    return (
+      <div className="pa4 tc">
+        <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+          <DropdownToggle
+            tag="span"
+            data-toggle="dropdown"
+            aria-expanded={this.state.dropdownOpen}
+          >
+            <img
+              src="http://tachyons.io/img/logo.jpg"
+              className="br-100 ba h3 w3 dib"
+              alt="avatar"
+            />
+          </DropdownToggle>
+          <DropdownMenu
+            right
+            className="b--transparent shadow-5"
+            style={{
+              marginTop: '20px',
+              backgroundColor: 'rgba(255, 255, 255, 0.5'
+            }}
+          >
+            <DropdownItem>View Profile</DropdownItem>
+            <DropdownItem onClick={() => this.props.onRouteChange('signout')}>
+              Sign Out
+            </DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
+      </div>
+    );
+  }
+}
 
 export default ProfileIcon;
