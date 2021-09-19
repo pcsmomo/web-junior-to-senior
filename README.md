@@ -73,6 +73,15 @@ Useful Higher Order Function & Promise Return Pattern
 npm install --save jsonwebtoken
 ```
 
+### 353. Adding Redis
+
+````sh
+# Run server
+$ src/redis-server
+# It cannot connect if redis server is running on local
+# and this smart-brain-api is running on docker.
+```
+
 </details>
 
 # Next Step
@@ -81,3 +90,4 @@ npm install --save jsonwebtoken
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
 - Review Performance and digest them again
 - Use Vercel and Serverless
+````

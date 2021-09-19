@@ -1,4 +1,10 @@
 const jwt = require('jsonwebtoken');
+const redis = require('redis');
+
+// setup Redis:
+const redisClient = redis.createClient({ host: '127.0.0.1' });
+// It cannot connect if redis server is running on local
+// and this smart-brain-api is running on docker.
 
 const handleSignin = (db, bcrypt, req, res) => {
   const { email, password } = req.body;
