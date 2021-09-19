@@ -25,17 +25,17 @@ const handleSignin = (db, bcrypt, req, res) => {
           .then((user) => user[0])
           .catch((err) => Promise.reject('unable to get user'));
       } else {
-        Promise.reject('wrong credentials');
+        return Promise.reject('wrong credentials');
       }
     })
     .catch((err) => Promise.reject('wrong credentials'));
 };
 
 const getAuthTokenId = (req, res) => {
-  const { authorization } = req.header;
+  const { authorization } = req.headers;
   return redisClient.get(authorization, (err, reply) => {
     if (err || !reply) {
-      return res.status(400).json('Unauthorized');
+      return res.status(401).json('Unauthorized');
     }
     return res.json({ id: reply });
   });
@@ -56,7 +56,7 @@ const createSession = (user) => {
   const { email, id } = user;
   const token = signToken(email);
   return setToken(token, id)
-    .then(() => ({ seccess: 'true', userId: id, token }))
+    .then(() => ({ success: 'true', userId: id, token }))
     .catch(console.log('Set token failed..'));
 };
 

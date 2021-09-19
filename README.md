@@ -99,6 +99,26 @@ docker-compose exec redis redis-cli
 # "1"  , my user id is "1"
 ```
 
+### 358. Client Session Management
+
+- sessionStorage: data in sessionStorage is cleared when the page session ends
+  - Opening a page in a new tab or window creates a new session with the value of the top-level browsing context, which differs from how session cookies work
+- localStorage: data in localStorage doesn't expire,
+
+Bearer
+
+```json
+{
+  "method": "post",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "token"
+    // Setting "token" with Bearer is a conventional pattern
+    // 'Authorization': 'Bearer ' + token
+  }
+}
+```
+
 </details>
 
 # Next Step
