@@ -89,6 +89,16 @@ $ src/redis-server
 docker-compose exec redis redis-cli
 ```
 
+### 356. Storing JWT Tokens
+
+```sh
+# logging in on front server
+# check if the token is stored in redis
+docker-compose exec redis redis-cli
+> get [token]
+# "1"  , my user id is "1"
+```
+
 </details>
 
 # Next Step
