@@ -75,11 +75,18 @@ npm install --save jsonwebtoken
 
 ### 353. Adding Redis
 
-````sh
+```sh
 # Run server
 $ src/redis-server
 # It cannot connect if redis server is running on local
 # and this smart-brain-api is running on docker.
+```
+
+### 355. Solution: #3 - Adding Redis To Docker Compose
+
+```sh
+# we can connect the redix server running on the docker
+docker-compose exec redis redis-cli
 ```
 
 </details>
@@ -90,4 +97,3 @@ $ src/redis-server
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
 - Review Performance and digest them again
 - Use Vercel and Serverless
-````
