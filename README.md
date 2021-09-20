@@ -151,6 +151,34 @@ Google "aws flow"
 1. Monolithic : All codes are in one place
 2. **Micro Services** : All services are independent
 
+### 374. Amazon Lambda Dashboard
+
+Create Lambda function
+
+name: rankly
+
+> No need to create. We will create it through serverless
+
+### 376. Serverless
+
+```sh
+npm install -g serverless
+
+serverless
+serverless create --help
+```
+
+```sh
+mkdir rankly
+sls create -t aws-nodejs
+
+serverless -v
+# Framework Core: 2.59.0
+# Plugin: 5.4.4
+# SDK: 4.3.0
+# Components: 3.17.0
+```
+
 </details>
 
 # To do
