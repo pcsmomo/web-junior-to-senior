@@ -124,6 +124,12 @@ Bearer
 - [What Are Refresh Tokens and How to Use Them Securely](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
 - [Why is 'Bearer' required before the token in 'Authorization' header in a HTTP request?](https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re)
 
+### 365. Optional: Why bcrypt-nodejs?
+
+bcypt-nodejs works whole systems such as Mac, Windows, and Linux \
+(even though it is not being maintained anymore)\
+But, bcrypt.js might occur a problem on a different system or not.
+
 </details>
 
 # Next Step
