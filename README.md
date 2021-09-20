@@ -130,11 +130,16 @@ bcypt-nodejs works whole systems such as Mac, Windows, and Linux \
 (even though it is not being maintained anymore)\
 But, bcrypt.js might occur a problem on a different system or not.
 
+### 367. Exercise: #4 - Improving SmartBrain
+
+[Exercise: #4 - Improving SmartBrain](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10521040#questions)
+
 </details>
 
-# Next Step
+# To do
 
 - Combine README-front.md back into README.md
+- [Exercise: #4 - Improving SmartBrain](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10521040#questions)
 - [Awesome Google Web Fundamentals](https://developers.google.com/web/fundamentals)
 - Review Performance and digest them again
 - Use Vercel and Serverless
