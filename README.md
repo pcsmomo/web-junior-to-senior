@@ -146,6 +146,11 @@ But, bcrypt.js might occur a problem on a different system or not.
 
 Google "aws flow"
 
+### 372. Monolithic vs Micro Services
+
+1. Monolithic : All codes are in one place
+2. **Micro Services** : All services are independent
+
 </details>
 
 # To do
