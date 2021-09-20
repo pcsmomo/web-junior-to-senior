@@ -17,6 +17,7 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
     <li><a href="#section-11-docker">Section 11: Docker</a></li>
     <li><a href="#section-12-redis">Section 12: Redis</a></li>
     <li><a href="#section-13-session-jwt">Section 13: Sessions + JWT</a></li>
+    <li><a href="#section-14-aws">Section 14: AWS</a></li>
   </ul>
 </details>
 
@@ -133,6 +134,17 @@ But, bcrypt.js might occur a problem on a different system or not.
 ### 367. Exercise: #4 - Improving SmartBrain
 
 [Exercise: #4 - Improving SmartBrain](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/learn/lecture/10521040#questions)
+
+</details>
+
+## Section 14: AWS
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 371. Amazon Web Services
+
+Google "aws flow"
 
 </details>
 
