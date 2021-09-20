@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const redis = require('redis');
 
 // setup Redis:
+// Todo: redisClient can be moved to server.js
 const redisClient = redis.createClient(process.env.REDIS_URI);
 // It cannot connect if redis server is running on local
 // and this smart-brain-api is running on docker.
@@ -75,5 +76,6 @@ const signinAuthentication = (db, bcrypt) => (req, res) => {
 
 module.exports = {
   // handleSignin: handleSignin,
-  signinAuthentication: signinAuthentication
+  signinAuthentication: signinAuthentication,
+  redisClient: redisClient
 };
