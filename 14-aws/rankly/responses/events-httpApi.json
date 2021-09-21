@@ -1,0 +1,48 @@
+{
+  "message": "Go Serverless v1.0! Your function executed successfully!",
+  "input": {
+    "version": "2.0",
+    "routeKey": "GET /rank",
+    "rawPath": "/rank",
+    "rawQueryString": "",
+    "headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,ko;q=0.8,zh-CN;q=0.7,zh;q=0.6",
+      "content-length": "0",
+      "host": "jmyrkptd79.execute-api.us-east-1.amazonaws.com",
+      "sec-ch-ua": "\"Google Chrome\";v=\"93\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"93\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36",
+      "x-amzn-trace-id": "Root=1-614a6216-0bdd70cc58f3dc3e60cd26d1",
+      "x-forwarded-for": "49.184.73.132",
+      "x-forwarded-port": "443",
+      "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+      "accountId": "516171503781",
+      "apiId": "jmyrkptd79",
+      "domainName": "jmyrkptd79.execute-api.us-east-1.amazonaws.com",
+      "domainPrefix": "jmyrkptd79",
+      "http": {
+        "method": "GET",
+        "path": "/rank",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "49.184.73.132",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+      },
+      "requestId": "GCRDfiPGIAMEVGg=",
+      "routeKey": "GET /rank",
+      "stage": "$default",
+      "time": "21/Sep/2021:22:52:06 +0000",
+      "timeEpoch": 1632264726130
+    },
+    "isBase64Encoded": false
+  }
+}

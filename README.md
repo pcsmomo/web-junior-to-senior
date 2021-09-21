@@ -208,6 +208,31 @@ sls invoke --function rank
 sls invoke local --function rank
 ```
 
+```yml
+# 1. deploye with http
+events:
+  - http:
+      path: rank
+      method: get
+# endpoints:
+#   GET - https://4nkrzsndyi.execute-api.us-east-1.amazonaws.com/dev/rank
+
+# 2. deploye with httpApi
+events:
+  - httpApi:
+      path: /rank
+      method: get
+# endpoints:
+#   GET - https://jmyrkptd79.execute-api.us-east-1.amazonaws.com/rank
+
+# 3. deploye with httpApi and short pattern
+events:
+  - httpApi: get /rank
+# The same result
+```
+
+> http and httpApi receive difference responses
+
 </details>
 
 # To do
