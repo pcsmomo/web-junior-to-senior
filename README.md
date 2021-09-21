@@ -182,6 +182,7 @@ serverless -v
 ### 378. IAM
 
 ```sh
+# Create AWS user - name: rankly-lamda
 # serverless config with AWS account
 sls config credentials --provider aws --key [PUBLIC KEY] --secret [SECRET KEY]
 
@@ -192,6 +193,20 @@ cat ~/.aws/credentials
 ### 379. Resources: IAM
 
 [serverless IAM](https://www.serverless.com/framework/docs/providers/aws/guide/iam/)
+
+### 380. Deploying A Function
+
+```sh
+# deploy
+sls deploy
+
+# run for test - it would cost
+sls invoke --function rank
+
+# run for local test - it won't charge
+# and it works for simple function (not complex like using s3 or other services)
+sls invoke local --function rank
+```
 
 </details>
 
