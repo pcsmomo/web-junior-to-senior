@@ -179,6 +179,20 @@ serverless -v
 # Components: 3.17.0
 ```
 
+### 378. IAM
+
+```sh
+# serverless config with AWS account
+sls config credentials --provider aws --key [PUBLIC KEY] --secret [SECRET KEY]
+
+# AWS credential path
+cat ~/.aws/credentials
+```
+
+### 379. Resources: IAM
+
+[serverless IAM](https://www.serverless.com/framework/docs/providers/aws/guide/iam/)
+
 </details>
 
 # To do
