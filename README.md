@@ -269,6 +269,12 @@ events:
 5. More database
 6. Database type
 
+### 391. Caching 1
+
+1. CPU (Center Processing Unit) : Fastest but small
+2. RAM (Random Access Memory) : Fast but temporary
+3. HDD (Hard Disk Drive) : Slow but persistent
+
 </details>
 
 # To do
