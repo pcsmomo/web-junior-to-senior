@@ -275,6 +275,13 @@ events:
 2. RAM (Random Access Memory) : Fast but temporary
 3. HDD (Hard Disk Drive) : Slow but persistent
 
+### 392. Caching 2
+
+Cache busting : the process of uploading a new file to replace an existing file that is already cached\
+
+- bundle[contenthash].js
+- styles[contenthash].css
+
 </details>
 
 # To do
