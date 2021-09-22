@@ -18,6 +18,7 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
     <li><a href="#section-12-redis">Section 12: Redis</a></li>
     <li><a href="#section-13-session-jwt">Section 13: Sessions + JWT</a></li>
     <li><a href="#section-14-aws">Section 14: AWS</a></li>
+    <li><a href="#section-15-performance-part-2">Section 15: Performance Part 3</a></li>
   </ul>
 </details>
 
@@ -232,6 +233,19 @@ events:
 ```
 
 > http and httpApi receive difference responses
+
+</details>
+
+## Section 15: Performance Part 3
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 388. CDNs
+
+- CloudFlare CDN
+- AWS CloudFront
+- Azure CDN
 
 </details>
 
