@@ -247,6 +247,16 @@ events:
 - AWS CloudFront
 - Azure CDN
 
+### 389. GZIP
+
+1. [GZIP](https://github.com/expressjs/compression)
+   -content-encoding: gzip
+   - Most browser support gzip
+2. [BROTLI](https://github.com/foliojs/brotli.js)
+   - content-encoding: br
+   - compress 20% more than gzip
+   - getting more popular
+
 </details>
 
 # To do
