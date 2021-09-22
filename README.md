@@ -257,6 +257,18 @@ events:
    - compress 20% more than gzip
    - getting more popular
 
+### 390. Database Scaling
+
+1. Identify Inefficient Queries
+2. Increase Memory
+3. Vertical Scaling (Redis, Memchached)
+   - Redis cached data
+4. Sharding
+   - a method for distributing data across multiple machines
+   - searching only that specific part of database
+5. More database
+6. Database type
+
 </details>
 
 # To do
