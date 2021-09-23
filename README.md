@@ -282,6 +282,13 @@ Cache busting : the process of uploading a new file to replace an existing file 
 - bundle[contenthash].js
 - styles[contenthash].css
 
+### 393. Caching 3
+
+Response Headers (http://localhost:3000/static/)
+
+- ETag: W/"12f-17c0f5d367d"
+- ETag: W/"131-17c0f75780e" (When change index.html)
+
 </details>
 
 # To do
