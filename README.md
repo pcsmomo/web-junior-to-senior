@@ -316,6 +316,11 @@ npm install -g loadtest
 loadtest -t 5 -c 100 --rps 100 http://localhost:80
 ```
 
+### 399. Resources: Nginx
+
+- [nginx - doc](https://nginx.org/en/docs/)
+- [How to Configure NGINX](https://www.linode.com/docs/guides/how-to-configure-nginx/)
+
 </details>
 
 # To do
