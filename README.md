@@ -295,6 +295,27 @@ Response Headers (http://localhost:3000/static/)
 - [Cache Headers](https://web.dev/http-cache/)
 - [Caching and Performance](https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers)
 
+### 398. Nginx 2
+
+```sh
+docker-compose up --build
+
+# http://localhost and refresh
+```
+
+http request (load balance) testing tools
+
+- [npm loadtest](https://www.npmjs.com/package/loadtest)
+- [Artillery : Planet-scale performance testing](https://artillery.io/)
+- [siege](https://github.com/JoeDog/siege)
+- [wrk2](https://github.com/giltene/wrk2)
+
+```sh
+npm install -g loadtest
+# t: time, -c: clients, --rps: read of request per second
+loadtest -t 5 -c 100 --rps 100 http://localhost:80
+```
+
 </details>
 
 # To do

@@ -1,0 +1,25 @@
+noah@Noahs-MacBook-Pro 15-performance-part-3 % loadtest -t 5 -c 1000 --rps 500 http://localhost:3000
+[Fri Sep 24 2021 10:56:04 GMT+1000 (Australian Eastern Standard Time)] INFO Requests: 0, requests per second: 0, mean latency: 0 ms
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO 
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Target URL:          http://localhost:3000
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Max time (s):        5
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Concurrency level:   1000
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Agent:               none
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Requests per second: 500
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO 
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Completed requests:  2404
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Total errors:        2
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Total time:          5.024251991 s
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Requests per second: 478
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Mean latency:        553.6 ms
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO 
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO Percentage of the requests served within a certain time
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO   50%      589 ms
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO   90%      839 ms
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO   95%      905 ms
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO   99%      951 ms
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO  100%      966 ms (longest request)
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO 
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO  100%      966 ms (longest request)
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO 
+[Fri Sep 24 2021 10:56:09 GMT+1000 (Australian Eastern Standard Time)] INFO    -1:   2 errors
