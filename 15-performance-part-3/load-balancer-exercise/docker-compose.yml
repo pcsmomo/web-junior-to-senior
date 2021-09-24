@@ -7,11 +7,11 @@ services:
   web2:
     build: .
     ports:
-      - 3000
+      - 3001
   web3:
     build: .
     ports:
-      - 3000
+      - 3002
   load-balancer:
     build: nginx/
     ports:
