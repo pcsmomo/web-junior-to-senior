@@ -289,6 +289,12 @@ Response Headers (http://localhost:3000/static/)
 - ETag: W/"12f-17c0f5d367d"
 - ETag: W/"131-17c0f75780e" (When change index.html)
 
+### 394. Resources: Caching
+
+- [Caching Everywhere](https://www.freecodecamp.org/news/the-hidden-components-of-web-caching-970854fe2c49/)
+- [Cache Headers](https://web.dev/http-cache/)
+- [Caching and Performance](https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers)
+
 </details>
 
 # To do
