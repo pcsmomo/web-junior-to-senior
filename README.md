@@ -333,6 +333,17 @@ loadtest -t 5 -c 100 --rps 100 http://localhost:80
 
 ![CI/CD](resources/cicd.png 'CI/CD')
 
+### 407. CircleCI
+
+1. Create a new account for Circle CI with my github account
+2. Create a new repository, robofriends-ci on github
+3. Push code with .circleci config
+4. On Circle CI web, choose the github repository and "Set Up Project"
+5. make changes and push to the main branch
+   - Circle CI builds it automatically
+6. make changes, create a new branch, create a PR to main
+   - Circle CI checks the PR and we can see it on the PR on Github
+
 </details>
 
 # To do
