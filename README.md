@@ -19,6 +19,7 @@ The Complete Junior to Senior Web Developer Roadmap by Andrei Neagoie
     <li><a href="#section-13-session-jwt">Section 13: Sessions + JWT</a></li>
     <li><a href="#section-14-aws">Section 14: AWS</a></li>
     <li><a href="#section-15-performance-part-2">Section 15: Performance Part 3</a></li>
+    <li><a href="#section-16-cicd">Section 16: CI/CD</a></li>
   </ul>
 </details>
 
@@ -320,6 +321,17 @@ loadtest -t 5 -c 100 --rps 100 http://localhost:80
 
 - [nginx - doc](https://nginx.org/en/docs/)
 - [How to Configure NGINX](https://www.linode.com/docs/guides/how-to-configure-nginx/)
+
+</details>
+
+## Section 16: CI/CD
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 404. Continuous Integration, Delivery, Deployment
+
+![CI/CD](resources/cicd.png 'CI/CD')
 
 </details>
 
