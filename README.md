@@ -344,6 +344,10 @@ loadtest -t 5 -c 100 --rps 100 http://localhost:80
 6. make changes, create a new branch, create a PR to main
    - Circle CI checks the PR and we can see it on the PR on Github
 
+### 408. Continuous Integration 1
+
+the new container, 'hithere' can be like "test coverage > 70%"
+
 </details>
 
 # To do
