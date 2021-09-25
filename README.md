@@ -348,6 +348,21 @@ loadtest -t 5 -c 100 --rps 100 http://localhost:80
 
 the new container, 'hithere' can be like "test coverage > 70%"
 
+### 409. Continuous Integration 2
+
+[Prettier - Pre-commit Hook](https://prettier.io/docs/en/precommit.html)
+
+```sh
+npm install --save-dev --save-exact prettier
+
+# husky & pretty-quick
+npx husky-init
+npm install --save-dev pretty-quick
+npx husky set .husky/pre-commit "npx pretty-quick --staged"
+```
+
+[Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+
 </details>
 
 # To do
